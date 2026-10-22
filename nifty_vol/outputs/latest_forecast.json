@@ -1,0 +1,30 @@
+{
+  "asof_date": "2026-10-16",
+  "horizon_days": 5,
+  "primary_model": "xgb",
+  "generated_at_utc": "2026-10-22T09:03:12+00:00",
+  "current_rv_5": 0.17856005649418938,
+  "models": {
+    "har": {
+      "name": "HAR-type (OLS)",
+      "predicted_vol": 0.13751710189142394,
+      "risk": "MODERATE",
+      "trend": "DECREASING",
+      "expected_move_1sigma": 0.019370527293578646
+    },
+    "rf": {
+      "name": "Random Forest",
+      "predicted_vol": 0.11172491760799304,
+      "risk": "MODERATE",
+      "trend": "DECREASING",
+      "expected_move_1sigma": 0.015737464912598045
+    },
+    "xgb": {
+      "name": "XGBoost",
+      "predicted_vol": 0.1172260195016861,
+      "risk": "MODERATE",
+      "trend": "DECREASING",
+      "expected_move_1sigma": 0.016512344857789674
+    }
+  }
+}
